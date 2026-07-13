@@ -14,6 +14,12 @@ export const APP = {
   description:
     "Aulas, receitas, desafios e acompanhamento para transformar hábito alimentar em resultado.",
   version: "0.1.0-demo",
+  /**
+   * Endereço público da demonstração. É a base das URLs absolutas exigidas por
+   * WhatsApp, LinkedIn e Telegram no preview do link (og:image não aceita
+   * caminho relativo). Ao trocar de domínio, altere aqui.
+   */
+  siteUrl: "https://nutri-flow-damatech.vercel.app",
 } as const;
 
 /** Profissional que assina o conteúdo (dado fictício de demonstração). */

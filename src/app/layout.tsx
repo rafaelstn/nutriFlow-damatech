@@ -13,8 +13,23 @@ const display = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(APP.siteUrl),
   title: `${APP.name} | ${APP.tagline}`,
   description: APP.description,
+  applicationName: APP.name,
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: APP.siteUrl,
+    siteName: APP.name,
+    title: `${APP.name} | ${APP.tagline}`,
+    description: APP.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${APP.name} | ${APP.tagline}`,
+    description: APP.description,
+  },
 };
 
 export const viewport: Viewport = {
