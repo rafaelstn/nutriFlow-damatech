@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>NutriFlow</title>
+  <rect width="40" height="40" rx="12" fill="#2d795c" />
+  <path
+    d="M11 27c0-7.18 5.82-13 13-13h5v4.5c0 6.35-5.15 11.5-11.5 11.5H11V27Z"
+    fill="#fcfcf8"
+    fill-opacity="0.92"
+  />
+  <path
+    d="M11.5 29.5c3-7.5 8.5-11.5 15-13"
+    stroke="#2d795c"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>
